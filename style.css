@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+}
+
+.first-instruction {
+	display: flex;
+	justify-content: center;
+
+}
+
+.first-instruction h2 {
+	text-align: center;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 10px;
+	border: 5px solid black;
+}
+
+.keycode-display {
+	visibility: hidden;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.keycode-display h1 {
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	font-size: 172px;
+}
+
+.show-key {
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.show-key h2 {
+	text-align: center;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
